@@ -11,4 +11,11 @@ function calculate(operation) {
         console.log(result);
         document.getElementById("result").textContent = result;
     }
+
+    else if (operation === "subtract") {
+        const result = firstNumber - secondNumber;
+
+        console.log(result);
+        document.getElementById("result").textContent = result;
+    }
 }
