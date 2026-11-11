@@ -25,4 +25,16 @@ function calculate(operation) {
         console.log(result);
         document.getElementById("result").textContent = result;
     }
+
+    else if (operation === "divide") {
+
+    if (secondNumber === 0) {
+        document.getElementById("result").textContent = "Error: Division by zero is not allowed.";
+    } else {
+        const result = firstNumber / secondNumber;
+
+        console.log(result);
+        document.getElementById("result").textContent = result;
+    }
 }
+} 
