@@ -3,7 +3,8 @@ const num2 = document.getElementById("num2");
 
 function calculate(operation) {
     if (operation === "add") {
-    console.log(operation);
+        const result = firstNumber + secondNumber;
+    }
 }
 
 const firstNumber = Number(num1.value);
