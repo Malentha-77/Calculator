@@ -2,6 +2,10 @@ const num1 = document.getElementById("num1");
 const num2 = document.getElementById("num2");
 
 function calculate(operation) {
+    if (num1.value === "" || num2.value === "") {
+        document.getElementById("result").textContent = "Error: Please enter both numbers.";
+        return;
+    }
     const firstNumber = Number(num1.value);
     const secondNumber = Number(num2.value);
 
