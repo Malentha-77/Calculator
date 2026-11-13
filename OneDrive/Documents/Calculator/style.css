@@ -47,3 +47,9 @@ button {
 button:hover {
     background-color: #555;
 }
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+}
